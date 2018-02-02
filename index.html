@@ -26,14 +26,16 @@
 			<a href="https://www.google.com"><img src="images/google-logo.jpg" alt="Google"></a>
 		</div>
 
-		<div class="search">
-			<input type="search">
-		</div>
-
-		<div id="searchbtns">
-			<button id="search">Google Search</button>
-			<button id="lucky">I'm Feeling Lucky</button>
-		</div>
+		<form role="search" method="get" id="searchform" class="search" action="http://www.google.com/search?hl=en-US&source=hp&q=">
+			<div id="gform">
+				<label class="screen-reader-text" for="s"></label>
+				<input type="text" value="" name="q" id="s">
+				<div id="searchbtns">
+					<button type="submit" id="search">Google Search</button>
+					<button id="lucky">I'm Feeling Lucky</button>
+				</div>
+			</div>
+		</form>
 	</center>
 
 	<footer>
