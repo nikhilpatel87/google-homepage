@@ -3,27 +3,49 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Google</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<div id="nav">
-		<ul>
-			<li><a href="https://www.google.com/about/">About</a></li>
-			<li><a href="https://store.google.com">Store</a></li>
+	<header class="nav">
+		<div class="leftnav">
+			<div id="about" class="link"><a href="https://www.google.com/about/">About</a></div>
+			<div id="store" class="link"><a href="https://store.google.com">Store</a></div>
+		</div>
+
+		<div class="rightnav">
+			<a id="gmail" class="link" href="https://mail.google.com">Gmail</a>
+			<a id="images" class="link" href="https://images.google.com">Images</a>
+			<a class="link" href="https://www.google.com/intl/en/about/products/"><img id="apps" src="images/apps_icon.png" alt=""></a>
+			<button id="signbtn"><a id="signin" class="link" href="https://accounts.google.com/signin">Sign In</a></button>
+		</div>
+	</header>
+
+	<center>
+		<div id="logo">
+			<a href="https://www.google.com"><img src="images/google-logo.jpg" alt="Google"></a>
+		</div>
+
+		<div class="search">
+			<input type="search">
+		</div>
+
+		<div id="searchbtns">
+			<button id="search">Google Search</button>
+			<button id="lucky">I'm Feeling Lucky</button>
+		</div>
+	</center>
+
+	<footer>
+		<ul class="leftft">
+			<li><a href="https://www.google.com/intl/en_us/ads">Advertising</a></li>
+			<li><a href="https://www.google.com/services/#?modal_active=none">Business</a></li>
 		</ul>
 
-		<ul>
-			<li><a class="navigation" href="https://mail.google.com">Gmail</a></li>
-			<li><a href="https://images.google.com">Images</a></li>
-			<li><a href="#" title="Google Apps" id="apps"><img src="images/apps_icon.png" alt=""></a></li>
-			<li><a href="https://accounts.google.com/signin"><button id="signin"><strong>Sign In</strong></button></a></li>
+		<ul class="rightft">
+			<li><a href="https://www.google.com/intl/en_us/policies/privacy/?fg=1">Privacy</a></li>
+			<li><a href="https://www.google.com/intl/en_us/policies/terms/?fg=1">Terms</a></li>
+			<li><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
 		</ul>
-	</div>
-
-	<div id="logo">
-		<img src="images/google_logo.png" alt="Google">
-	</div>
-	<br>
-	
-
+	</footer>
 </body>
 </html>

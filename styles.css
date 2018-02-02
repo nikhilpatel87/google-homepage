@@ -1,0 +1,176 @@
+.nav {
+	width: 100%;
+	font-size: 13px;
+	font-family: arial,sans-serif;
+	padding-top: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.leftnav {
+	float: left;
+	display: flex;
+	position: absolute;
+	margin: 7px 20px 0 30px;
+}
+
+.rightnav {
+	display: flex;
+	min-width: 222px;
+	float: right;
+	padding-left: 30px;
+	text-align: right;
+	align-items: center;
+	margin: -14px 30px 0 20px;
+}
+
+#about {
+	padding-right: 10px;
+}
+
+#store {
+	padding-left: 10px;
+	padding-right: 30px;
+}
+
+#gmail {
+	padding-right: 20px;
+}
+
+#images {
+	padding-right: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	opacity: 0.75;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#apps {
+	height: 25px;
+	width: 25px;
+	display: inline-block;
+	cursor: pointer;
+	opacity: .75;
+	border-radius: 2px;
+	box-sizing: border-box;
+	margin-right: 10px;
+
+}
+
+#apps:hover {
+	transform: scale(1.1);
+	opacity: 0.95;
+}
+
+#signbtn {
+	background: #4285f4;
+	border: 1px solid #4285f4;
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	height: 30px;
+	vertical-align: middle;
+}
+
+#signin {
+	color: #fff;
+	text-decoration: none;
+	opacity: 1;
+}
+
+center {
+	position: fixed;
+	display: inline-block;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#logo {
+	padding-bottom: 25px;
+}
+
+input {
+	background: url("images/voice-icon.png") right no-repeat;
+	width: 100%;
+	max-width: 580px;
+	background-color: #fff;
+	margin: -1px 0px 1px;
+	position: relative;
+	overflow: visible;
+	white-space: nowrap;
+	height: 40px;
+}
+
+#searchbtns {
+	text-align: center;
+}
+
+button {
+	height: 36px;
+	line-height: 28px;
+	color: #757575;
+	background-color: #f2f2f2;
+	border: 1px solid #fff;
+	padding: 0 16px;
+	cursor: default;
+	font-weight: bold;
+	margin: 11px 4px;
+	text-align: center;
+	min-width: 54px;
+}
+
+button:hover {
+	color: #000;
+	border: 1px solid #757575;
+}
+
+footer {
+	font-size: 13px;
+	font-family: arial,sans-serif;
+	color: #000;
+	opacity: 0.75;
+	position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    bottom: 0;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    overflow: hidden;
+	white-space: nowrap;
+}
+
+ul {
+    list-style-type: none;
+    -webkit-margin-after: 0;
+    -webkit-margin-before: 0;
+    -webkit-padding-start: 0;
+}
+
+ul.leftft {
+    margin-left: 30px;
+}
+
+ul.rightft {
+    margin-right: 30px;
+}
+
+li {
+    display: inline-block;
+}
+
+.rightft > li {
+    margin-left: 20px;
+}
+
+.leftft > li {
+    margin-right: 20px;
+}
